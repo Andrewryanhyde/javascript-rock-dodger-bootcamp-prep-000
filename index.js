@@ -128,5 +128,8 @@ function endGame() {
   $("#element").off('keydown', function(){
     $("#element").hide(); //not working
 });
+  gameInterval = 0;
+  ROCKS.remove
+  sart().removeEventListener
 }
 
