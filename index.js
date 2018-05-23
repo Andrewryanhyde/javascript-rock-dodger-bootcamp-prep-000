@@ -125,11 +125,7 @@ function start() {
 }
 
 function endGame() {
-  $("#element").off('keydown', function(){
-    $("#element").hide(); //not working
-});
-  gameInterval = 0;
-  ROCKS.remove
-  sart().removeEventListener
+  document.removeEventListener('keydown', moveDodger);
+  
 }
 
