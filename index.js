@@ -143,11 +143,13 @@ function moveDodger(e) {
    */
    $(document).on('keypress', function(key) {
   if (key.which == 37){
-    moveDodgerLeft();
+    moveDodgerLeft()
   }
   
   $(document).on('keypress', function(key) {
-    if key.which == 
+    if key.which == 39) {
+      moveDodgerRight()
+    }
   })
 });
 }
@@ -158,6 +160,7 @@ function moveDodgerLeft() {
    * This function should move DODGER to the left
    * (mabye 4 pixels?). Use window.requestAnimationFrame()!
    */
+   
 }
 
 function moveDodgerRight() {
