@@ -125,7 +125,8 @@ function start() {
 }
 
 function endGame() {
-  document.removeEventListener('keydown', event);
+  document.removeEventListener('keydown', moveDodger);
+  
   
 }
 
