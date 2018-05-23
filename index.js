@@ -160,7 +160,9 @@ function moveDodgerLeft() {
    * This function should move DODGER to the left
    * (mabye 4 pixels?). Use window.requestAnimationFrame()!
    */
-   
+   document.addEventListener('keydown', function(e) {
+     
+   })
 }
 
 function moveDodgerRight() {
