@@ -166,6 +166,10 @@ function moveDodgerLeft() {
     var left = parseInt(leftNumbers, 10)
  
     dodger.style.left = `${left - 4}px`
+    
+    if (left > 0) {
+    dodger.style.left = `${left - 1}px`
+  }
   }
 })
    })
@@ -183,6 +187,7 @@ function moveDodgerRight() {
     let right = parseInt(rightNumbers, 10)
  
     dodger.style.right = `${right - 4}px`
+
   }
 })
    })
