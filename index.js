@@ -142,9 +142,13 @@ function moveDodger(e) {
    * And be sure to use the functions declared below!
    */
    $(document).on('keypress', function(key) {
-  if (key.which == 13){
-    alert('enter was pressed');
+  if (key.which == 37){
+    moveDodgerLeft();
   }
+  
+  $(document).on('keypress', function(key) {
+    if key.which == 
+  })
 });
 }
 
