@@ -124,7 +124,7 @@ function start() {
   }, 1000)
 }
 
-function endGame(event) {
+function endGame() {
   document.removeEventListener('keydown', event);
   
 }
