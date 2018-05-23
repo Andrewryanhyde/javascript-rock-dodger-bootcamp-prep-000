@@ -54,7 +54,7 @@ function checkCollision(rock) {
                *    and the rock's right edge is < the DODGER's right edge;
                * 3. The rock's left edge is < the DODGER's right edge,
                *    and the rock's right edge is > the DODGER's right edge
-               */) {
+               */ {
       return true
     }
   }
@@ -147,7 +147,7 @@ function moveDodger(e) {
   }
   
   $(document).on('keypress', function(key) {
-    if key.which == 39) {
+    if (key.which == 39) {
       moveDodgerRight()
     }
   })
@@ -166,13 +166,8 @@ function moveDodgerLeft() {
     var left = parseInt(leftNumbers, 10)
  
     dodger.style.left = `${left - 4}px`
-    
-    if (left > 0) {
-    dodger.style.left = `${left - 1}px`
-  }
   }
 })
-   })
 }
 
 function moveDodgerRight() {
@@ -187,10 +182,8 @@ function moveDodgerRight() {
     let right = parseInt(rightNumbers, 10)
  
     dodger.style.right = `${right - 4}px`
-
   }
 })
-   })
 }
 
 /**
