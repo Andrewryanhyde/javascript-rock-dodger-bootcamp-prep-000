@@ -127,6 +127,8 @@ function createRock(x) {
 function endGame() {
   gameInterval = 0;
   $('ROCKS').remove();
+  $('moveDodger').off
+  alert("YOU LOSE!")
   
 }
 
