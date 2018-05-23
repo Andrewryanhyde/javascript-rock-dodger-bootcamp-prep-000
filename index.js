@@ -125,6 +125,8 @@ function start() {
 }
 
 function endGame() {
-  
+  $("#element").off('keydown', function(){
+    $("#element").hide(); //not working
+});
 }
 
