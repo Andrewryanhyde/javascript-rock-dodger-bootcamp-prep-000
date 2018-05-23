@@ -66,7 +66,7 @@ function createRock(x) {
 function endGame() {
   clearInterval(gameInterval)
 
-  ROCKS.forEach(function(rock) {rock.remove() })
+  ROCKS.forEach(function(rock) { rock.remove() })
 
   document.removeEventListener('keydown', moveDodger)
 
@@ -74,7 +74,7 @@ function endGame() {
   START.style.display = 'inline'
 
   return alert('YOU LOSE!')
-}
+ }	 
 
 function moveDodger(e) {
   const key = e.which
