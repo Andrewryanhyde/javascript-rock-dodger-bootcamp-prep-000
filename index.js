@@ -182,7 +182,7 @@ function moveDodgerRight() {
     let rightNumbers = dodger.style.right.replace('px', '')
     let right = parseInt(rightNumbers, 10)
  
-    dodger.style.right = `${right + 4}px`
+    dodger.style.right = `${right - 4}px`
   }
 })
    })
